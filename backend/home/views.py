@@ -1,3 +1,5 @@
+from .models import DownvotePost, LikeComment, Post, PostComment, PostMedia, ReportPost, UpvotePost
+from django.views.generic import CreateView, UpdateView, DetailView, ListView
 from django.shortcuts import render
 
 
